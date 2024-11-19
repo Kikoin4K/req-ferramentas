@@ -21,5 +21,17 @@ namespace ReqFerramentas
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            frmColaboradores frm=new frmColaboradores();
+            frm.ShowDialog();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            fmrFerramentas frm = new fmrFerramentas();
+            frm.ShowDialog();
+        }
     }
 }
